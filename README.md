@@ -7,13 +7,13 @@ Thank you for your interest in becoming part of SamKnows. We would like you to c
 Before we start, we want to give you an idea of what we are looking for and what should be considered for your solution. For instance, while we do use Symfony 3 at SamKnows, for this particular test we ask you not to use any framework (packages are encouraged though!).
 
 ## Dont’s
-- *Do not* use any frameworks
+- *Do not* use any full-stack frameworks (e.g. `symfony/symfony` or `laravel/laravel`)
 - *Do not* spend more than 2 hours on this test
 - *Do not* use anything other than MySQL
 - *Do not* use Docker, Vagrant or similar
 
 ## Do’s
-- *Do* use appropriate packages
+- *Do* use appropriate packages (e.g. `symfony/console` or micro-frameworks)
 - *Do* use unit tests
 - *Do* use good design patterns
 - *Do* use dependency management
@@ -22,16 +22,16 @@ Before we start, we want to give you an idea of what we are looking for and what
 - *Do* elaborate on what you would do, given the time
 
 ## The Challenge
-For your test we are providing you with a JSON (see structure below). It contains a variety of “units” (e.g. Whiteboxes) and data points for specific metrics that they tested between 1st and 30th of February 2017. Those units tested download and upload speed, as well as latency and packet loss.
+For your test we are providing you with a JSON (see structure below). It contains a variety of “units” (A unique device which reports data) and data points for specific metrics that they tested between 1st and 30th of February 2017. Those units tested download and upload speed, as well as latency and packet loss.
 
-Your task is to fetch the data (whenever the application runs) and pre-process it to create an aggregated table for faster / more efficient access. This should act as a store to see how good or bad every hour in the day performed. Imagine that instead of a few thousand, you would have to deal with billions of data points – a reality for us at SamKnows!
+Your task is to fetch the data (whenever the application runs) and pre-process it to create an aggregated table. This should act as a store to see how good or bad every hour in the day performed. Imagine that instead of a few thousand, you would have to deal with trillions of data points – a reality for us at SamKnows!
 
 *So we would like for you to…*
 1. Aggregate all data points per unit, metric and hour
-2. Calculate the “average“, “mean“ and “median“ as well as “sample size“ for every hour (01 to 24)
+2. Calculate the “mean“, “minimum“, “average“ and “median“ as well as “sample size“ for every hour (01 to 24)
 3. Persist the data into an efficient and optimised database schema
 
-Your solution needs to enable us to check a specific metric (e.g. download), of a specific hour in the day (e.g. 9am or 1pm), on a specific date (e.g. 2017-02-10) and show the average, mean and median, as well as the number of tests that run on that metric.
+Your solution needs to enable us to check a specific metric (e.g. download), of a specific hour in the day (e.g. 9am or 1pm), on a specific date (e.g. 2017-02-10) and show the min, max, mean and median, as well as the number of data points in that sample.
 
 ## JSON
 Avalable here: `http://tech-test.sandbox.samknows.com/php-2.0/testdata.json`
