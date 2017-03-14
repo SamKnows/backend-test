@@ -28,7 +28,7 @@ Your task is to fetch the data (whenever the application runs) and pre-process i
 
 *So we would like for you to…*
 1. Aggregate all data points per unit, metric and hour
-2. Calculate the “mean“, “minimum“, “average“ and “median“ as well as “sample size“ for every hour (01 to 24)
+2. Calculate the “mean“, “minimum“, “maximum“, and “median“ as well as “sample size“ for every hour (01 to 24)
 3. Persist the data into an efficient and optimised database schema
 
 Your solution needs to enable us to check a specific metric (e.g. download), of a specific hour in the day (e.g. 9am or 1pm), on a specific date (e.g. 2017-02-10) and show the min, max, mean and median, as well as the number of data points in that sample.
