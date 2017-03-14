@@ -38,7 +38,7 @@ Avalable here: `http://tech-test.sandbox.samknows.com/php-2.0/testdata.json`
 
 The structure is pretty simple and contains a few units for which we will give you 4 metrics (`download`, `upload`, `latency` and `packet_loss`. Every one of those metrics contains a large amount of data points with `timestamp` and `value`.
 
-```json
+```javascript
 [
   {
     "unit_id": 1,
@@ -48,28 +48,28 @@ The structure is pretty simple and contains a few units for which we will give y
           "timestamp": "2017-02-10 17:00:00",
           "value": 4670170
         }
-		[...]
+	// [...]
       ],
       "upload": [
         {
           "timestamp": "2017-02-28 17:00:00",
           "value": 1214720
         },
-		[...]
+	// [...]
       ],
       "latency": [
         {
           "timestamp": "2017-02-22 16:00:00",
           "value": 44868
         },
-        [...]
+	// [...]
       ],
       "packet_loss": [
         {
           "timestamp": "2017-02-08 05:00:00",
           "value": 0.12
         },
-		[...]
+	// [...]
       ]
     }
   },
