@@ -34,7 +34,7 @@ Your task is to fetch the data (whenever the application runs) and pre-process i
 Your solution needs to enable us to check a specific unit & metric (e.g. unit #1's download results), of a specific hour in the day (e.g. 9am or 1pm) and show the min, max, mean and median, as well as the number of data points from that time accross all the days in the same.
 
 ## JSON
-Avalable here: `http://tech-test.sandbox.samknows.com/php-2.0/testdata.json`
+Available here: `http://tech-test.sandbox.samknows.com/php-2.0/testdata.json`
 
 The structure is pretty simple and contains a few units for which we will give you 4 metrics (`download`, `upload`, `latency` and `packet_loss`. Every one of those metrics contains a large amount of data points with `timestamp` and `value`.
 
