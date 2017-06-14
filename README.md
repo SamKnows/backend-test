@@ -6,9 +6,10 @@ Thank you for your interest in becoming part of SamKnows. We would like you to c
 
 Before we start, we want to give you an idea of what we are looking for and what should be considered for your solution. For instance, while we do use Symfony 3 at SamKnows, for this particular test we ask you not to use any framework (packages are encouraged though!).
 
+This should roughly take you three hours. If you'd like to do more, but don't have time then please mention it in your README.
+
 ## Dont’s
 - *Do not* use any full-stack frameworks (e.g. `symfony/symfony` or `laravel/laravel`)
-- *Do not* spend more than 2 hours on this test
 - *Do not* use anything other than MySQL
 - *Do not* use Docker, Vagrant or similar
 
@@ -31,7 +32,9 @@ Your task is to fetch the data (whenever the application runs) and pre-process i
 2. Calculate the “mean“, “minimum“, “maximum“, and “median“ as well as “sample size“ for every hour (01 to 24)
 3. Persist the data into an efficient and optimised database schema
 
-Your solution needs to enable us to check a specific unit & metric (e.g. unit #1's download results), of a specific hour in the day (e.g. 9am or 1pm) and show the min, max, mean and median, as well as the number of data points from that time accross all the days in the same.
+Your solution needs to enable us to check a specific unit & metric (e.g. unit #1's download results), of a specific hour in the day (e.g. 9am or 1pm) and show the min, max, mean and median, as well as the number of data points from that 
+
+accross all the days in the same.
 
 ## JSON
 Available here: `http://tech-test.sandbox.samknows.com/php-2.0/testdata.json`
