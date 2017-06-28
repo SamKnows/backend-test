@@ -32,9 +32,7 @@ Your task is to fetch the data (whenever the application runs) and pre-process i
 2. Calculate the “mean“, “minimum“, “maximum“, and “median“ as well as “sample size“ for every hour (01 to 24)
 3. Persist the data into an efficient and optimised database schema
 
-Your solution needs to enable us to check a specific unit & metric (e.g. unit #1's download results), of a specific hour in the day (e.g. 9am or 1pm) and show the min, max, mean and median, as well as the number of data points from that 
-
-accross all the days in the same.
+Your solution needs to enable us to check a specific unit & metric (e.g. unit #1's download results) of a specific hour in the day (e.g. 9am or 1pm), show the min, max, mean and median, as well as the number of data points in that dataset.
 
 ## JSON
 Available here: `http://tech-test.sandbox.samknows.com/php-2.0/testdata.json`
