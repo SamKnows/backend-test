@@ -10,7 +10,7 @@ This should roughly take you three hours. If you'd like to do more, but don't ha
 
 ## Dont’s
 - *Do not* use any full-stack frameworks (e.g. `symfony/symfony` or `laravel/laravel`)
-- *Do not* use anything other than MySQL
+- *Do not* use anything other than MySQL or SQLite
 - *Do not* use Docker, Vagrant or similar
 
 ## Do’s
